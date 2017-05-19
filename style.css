@@ -2,7 +2,7 @@
 				text-decoration:none;
 				background-color:#2471A3;
 				border-radius:10px;
-				padding:6px;
+				padding:5px;
 				color: black;
 			}
 			 #link-container{
@@ -17,7 +17,7 @@
 				
 			body{
 				color: black;
-				background:beige; 
+				background-color:beige; 
 
 			}
 
@@ -27,7 +27,13 @@
 
 			.nav { 
     border: 1em solid #2471A3  ; 
-    border-width: .1em 0; 
+    border-width: .2em 0; 
     list-style: none; 
     text-align: center; 
+
+}
+table{
+	border-style:10px;
+	padding:3px;
+	resize: 10px;
 }
