@@ -2,8 +2,9 @@
 				text-decoration:none;
 				background-color:#2471A3;
 				border-radius:10px;
-				padding:5px;
+				padding:6px;
 				color: black;
+				width:50%;
 			}
 			 #link-container{
 			padding-bottom: 10px;
@@ -33,6 +34,8 @@
 
 }
 table{
+
+	border-color: black;
 	border-style:10px;
 	padding:3px;
 	resize: 10px;
