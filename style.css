@@ -17,7 +17,7 @@
 				
 			body{
 				color: black;
-				background-color:beige; 
+				background:beige; 
 
 			}
 
@@ -26,9 +26,8 @@
 			}
 
 			.nav { 
-    border: 1em solid #ccc; 
+    border: 1em solid #2471A3  ; 
     border-width: .1em 0; 
     list-style: none; 
     text-align: center; 
 }
-		
