@@ -3,51 +3,88 @@
 <html>
 
 	<head>
-		<title>Contact Page</title>
+		<title>Trinity Siemer</title>
 			<link rel="stylesheet" type="text/css" href="style.css">
 			</link>
 			<style>
 			a{
-				background-color:#2471A3;
+				background-color:#333;
 				border-radius: 10px;
 				padding:6px;
 				text-decoration: none;
 				color:black;
 			}
-				
+						ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px ;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.vertical-menu a {
+    background-color: #333; /* Grey background color */
+    color: white; /* text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+.vertical-menu a:hover {
+    background-color:black;
+}
+
+.vertical-menu a.active {
+    background-color: #333;
+    color: white;
+}
 
 			</style>
 	</head>
 	<body>
+	<hr>
 	<h1>Trinity Siemer</h1>
+	<hr>
 		<div id="link-container"/>
-			<hr>
-					<a href="file:///C:/projects/three-page-site/home-page.html">Home Page</a> 
-					<a href="file:///C:/projects/three-page-site/about-me-page.html"> About Me </a>
-	
-					<a href="file:///C:/projects/three-page-site/contact-page.html">Contact Info	</a>
+				<ul>
+  							<li><a href="file:///C:/projects/three-page-site/home-page.html">Home Page</a></li>
+  							<li><a href="file:///C:/projects/three-page-site/about-me-page.html">About Me</a></li>
+  							<li><a href="file:///C:/projects/three-page-site/contact-page.html">Contact Info</a></li>
+						</ul>
 
-					<hr>
+					
 		</div>
 	<div style=" padding-left:50px; padding: 10px; float:left;">
 		<img style = "width:500px;" src="profile-pic.jpg"/>
 	</div>
+
 	<div style="border:10px;">
 	<h1>My Contact Info</h1>
-	<ul>
-	<li>Phone: 512-285-9695</li>
-	<br/> 
-        <li><a href="https://www.facebook.com/">Facebook</a>&nbsp; &nbsp; 
-        <br/> <br/>
-        <li><a href="https://github.com/tsiemer">GitHub</a></li>
-        <br/> 
-        <li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
-        <br/> 
-         <li><a href=" https://www.linkedin.com/feed/">Linkdin</a></li>
-         <br/>
-         <li><a href="https://about.me/trinitysiemer/edit">About Me</a></li>
-    </ul>
-	</div>
+
+	<div class="vertical-menu">
+  <a href="https://www.facebook.com/">Facebook</a>
+  <a href="https://github.com/tsiemer">GitHub</a>
+  <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
+  <a href=" https://www.linkedin.com/feed/">Linkedin</a>
+  <a href="https://about.me/trinitysiemer/edit">Aboutme</a>
+</div>
+   
+  </div>
 
 	</body>
 </html>
