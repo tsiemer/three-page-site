@@ -1,6 +1,6 @@
 	a{
 				text-decoration:none;
-				background-color: #333;
+				background-color:#397c7f;
 				border-radius:0px;
 				padding:6px;
 				color: black;
@@ -13,18 +13,17 @@
 			}
 
 		p, div {
-   		 font-family: 'Nobile';
+   		 font-family: 'Comic Sans MS';
 		}
 				
 			body{
 				color: black;
-				background-color:beige; 
-
+				background-color:#397c7f;
 			}
 
 			h1,h3,a {
-				font-family: 'Stencil';
-				background-color: beige;
+				font-family: 'Comic Sans MS';
+				
 					}
 		li a:hover:not(.active){
 		background-color:black;
@@ -34,7 +33,7 @@
 }
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
     overflow: auto;
     background-color: #333;
@@ -46,7 +45,7 @@ li {
 }
 
 li a {
-    display: inline-block;
+    display:block;
     color: white;
     text-align: center;
     padding: 14px 16px;
