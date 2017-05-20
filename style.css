@@ -25,27 +25,10 @@
 			h1,h3,a {
 				font-family: 'Stencil';
 				background-color: beige;
-			}
-
-			.nav { 
-    border: 1em solid #2471A3  ; 
-    border-width: .2em 0; 
-    list-style: none; 
-    text-align: center; 
-
-
-}
-table{
-
-	border-color: black;
-	border-style:10px;
-	padding:3px;
-	resize: 10px;
-}
-}
-li a:hover:not(.active){
-background-color:black;
-}
+					}
+		li a:hover:not(.active){
+		background-color:black;
+					}
 .active{
 	background-color: #333;
 }
