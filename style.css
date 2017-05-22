@@ -4,7 +4,7 @@
 				border-radius:0px;
 				padding:6px;
 				color: black;
-				font-family: 'Helvetica';
+				font-family:'Papyrus';
 			}
 			 #link-container{
 			padding-bottom: 10px;
@@ -13,16 +13,17 @@
 			}
 
 		p, div {
-   		 font-family: 'Comic Sans MS';
+   		 font-family:'Raleway';
 		}
 				
 			body{
 				color: black;
 				background-color:#397c7f;
+				font-family:'Raleway', sans-serif;;
 			}
 
-			h1,h3,a {
-				font-family: 'Comic Sans MS';
+			h1 {
+				font-family:'Papyrus';
 				
 					}
 		li a:hover:not(.active){
@@ -54,3 +55,31 @@ li a {
  li a :hover {
     background-color: #111;
 }
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li a:hover {
+    background-color: #111;
+}
+ h1,h3{
+ 	
+ 	 background-image: url(whitecube.jpg);
+ }
+
